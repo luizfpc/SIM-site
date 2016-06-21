@@ -1,0 +1,293 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	border:0;
+	font-family:'Lato 700', sans-serif;
+	font-weight:400;
+}
+
+#container-home{/*imagem bg1*/
+	width:100%;
+	background:url(imagens/florianopolis.jpg) no-repeat center top fixed;	
+	height:auto;
+}
+
+/*cabecalho*/
+header{ /*barra branca*/
+	width:100%;
+	height:115px;
+	background-color:#ffffff;
+	position:fixed;
+	top:0;
+	z-index:99;
+	opacity:0.95;
+}
+
+#topo{
+	width:1280px;
+	height:115px;
+}
+
+#logo{
+	width:219px;
+	height:57px;
+	float:left;
+	margin:0px 0px 0px 0px;
+	position:relative;
+}
+
+#logo img{
+	width:100%;
+}
+
+nav{ /*menu*/
+	width:487px;
+	float:left;
+	margin:60px 97px;
+	padding:0px 0px 0px 0px;
+}
+
+nav ul{ /*sem bolinha da lista*/
+	list-style:none;
+}
+
+nav ul li{ /*deixar lista lado a lado. padding para afastar nomes*/
+	display:inline;	
+	padding:0px 0px 0px 0px;
+	color:#09080e;
+	float:left;
+}
+
+nav li{
+	margin:0px;	
+}
+
+nav ul li a{
+	display:inline;	
+	color:#09080e;
+	text-decoration:none;
+	padding:6px 20px;
+	font-size:18px;
+}
+
+nav ul li a:hover{
+	background-color:#0000ff;
+	color:#ffffff;
+	font-weight:400;
+}
+
+#idioma{
+	width:150px;
+	float:left;
+	margin:0px 0px 0px px;
+	padding:0px 0px;
+}
+
+#idioma img{
+	width:15%;
+	margin:0px 20px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+/*fim cabecalho*/
+
+
+#content2{/*imagem bg2*/
+	width:100%;
+	background:url(imagens/bg2.jpg) no-repeat center top;	
+	height:638px;
+}
+
+quemsomos{
+	width:100%;
+	font-family:'Lato', sans-serif;	
+}
+
+#qs{
+	width:100%;
+}
+
+#qs h1{
+	margin:15px 0px 0px 0px;
+	font-size:36px;	
+	color:#0a605a;
+	text-align:center;
+}
+
+#qs p{
+	width:960px;
+	margin:10px 0px 0px 200px;	
+	font-size:20px;
+	color:#000000;
+	text-align:center;
+}
+/*fim imagem bg2*/
+
+
+#content3{/*imagem bg3*/
+	width:100%;
+	background:url(imagens/bg3.jpg) no-repeat center top;	
+	height:711px;
+}
+
+equipe{
+	width:100%;
+	font-family:'Lato', sans-serif;	
+}
+
+#eq{
+	width:100%;
+}
+
+#eq h1{
+	margin:0px 0px 0px 0px;
+	font-size:36px;	
+	color:#fff;
+	text-align:center;
+}
+
+#eq img{
+	width:600px;
+	height:auto;
+	margin-left:381px;
+}
+
+#eq p{
+	width:960px;
+	margin:10px 0px 0px 200px;	
+	font-size:34px;
+	color:#fff;
+	word-spacing:52px;
+	text-align:center;
+}
+/*fim imagem bg3*/
+
+
+#content4{/*imagem bg4*/
+	width:100%;
+	background:url(imagens/bg4.jpg) no-repeat center top;	
+	height:772px;
+}
+
+clientes{
+	width:100%;
+	font-family:'Lato', sans-serif;	
+}
+
+#cl{
+	width:100%;
+}
+
+#cl h1{
+	margin:0px 0px 0px 0px;
+	font-size:36px;	
+	color:#fff;
+	text-align:center;
+}
+
+#seta_esq{
+	width:100%;	
+}
+
+#seta_esq img{
+	width:50px;
+	float:left;	
+	margin-top:90px;
+	margin-left:100px;
+}
+
+#bloco1{
+	width:100%;	
+}
+
+#bloco1 img{
+	margin-left:131px;
+	margin-top:50px;
+}
+
+#seta_dir{
+	width:100%;	
+}
+
+#seta_dir img{
+	width:50px;
+	float:right;
+	margin-top:-115px;
+	margin-right:105px;	
+}
+/*fim imagem bg4*/
+
+#content5{/*imagem bg5*/
+	width:100%;
+	background:url(imagens/bg5.jpg) no-repeat center top;	
+	height:1068px;
+}
+
+contato{
+	width:100%;
+	font-family:'Lato', sans-serif;	
+}
+
+#co{
+	width:100%;
+}
+
+#co h1{
+	margin:0px 0px 0px 0px;
+	font-size:36px;	
+	color:#0a605a;
+	text-align:center;
+}
+
+#esquerda{
+	width:400px;
+	float:left;
+}
+
+#esquerda p{
+	width:400px;
+	margin:10px 0px 0px 200px;	
+	font-size:20px;
+	color:#000000;
+	text-align:left;
+}
+
+#direita{
+	width:400px;
+	float:right;
+	margin-top:18px;
+	margin-right:200px;
+	padding:0px 0px 0px 0px;
+}
+
+#direita p{
+	width:400px;
+	float:right;
+	padding:10px 0px 10px 0px;
+}
+
+
+
+/*fim imagem bg5*/
+
+footer {
+    bottom:0px; 
+    width:100%; 
+    height:60px; 
+    background-color:#0a605a;
+}
+
+#rodape{
+	width:100%;
+	height:auto;
+	padding:19px 0px 0px 0px;
+}
+
+#rodape p{
+	text-align:center;
+	letter-spacing:2px;
+	font-size:16px;
+	color: #fff;
+}
