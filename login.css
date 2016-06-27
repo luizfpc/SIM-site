@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	font-family:'Lato', sans-serif;
+}
+
+body{
+	font-family:'Lato', sans-serif;
+	margin:auto;
+	background-color:#eaf6fe;
+}
+
+
+
+/*INICIO LOGIN*/
+
+login_form{
+	background:#eaf6fe;
+	width:100%;
+}
+
+#login_conteudo{
+	width:960px;
+	height:800px;
+	margin:auto;
+}
+
+#login_conteudo form{
+	width:325px;
+	broder:none;
+	padding:150px 0px 0px 0px;
+	margin:auto;
+}
+
+#login_conteudo form input{
+	font-size:14px;
+	color:#3c3c3c;
+	background-color:#eaf6fe;
+	width:325px;
+	border:none;
+	padding:5px 0px;
+	margin:0px 0px 25px 0px;
+	border-bottom:1px solid #005a9a;
+}
+
+
+input [type=text], input [type=password], label{
+
+	font-size:14px;
+	padding:5px 5px;
+	font-weight:400;
+	color:#3c3c3c;
+	margin:25px 0px;	
+}
+
+textarea{
+	width:327px;
+	font-size:14px;
+	color:#3c3c3c;
+	background-color:#eaf6fe;
+	padding:5px 5px;
+	border:1px solid #005a9a;
+}
+
+

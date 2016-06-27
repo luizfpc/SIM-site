@@ -2,292 +2,272 @@
 /* CSS Document */
 
 *{
-	margin:0px 0px 0px 0px;
-	padding:0px 0px 0px 0px;
-	border:0;
-	font-family:'Lato 700', sans-serif;
-	font-weight:400;
+	margin:0;
+	padding:0;
+	font-family:'Lato', sans-serif;
 }
 
-#container-home{/*imagem bg1*/
+body{
+	font-family:'Lato', sans-serif;
+	margin:auto;
+}
+
+/*INICIO CABECALHO*/
+
+header{
+	background:#ffffff;
 	width:100%;
-	background:url(imagens/florianopolis.jpg) no-repeat center top fixed;	
-	height:auto;
 }
 
-/*cabecalho*/
-header{ /*barra branca*/
-	width:100%;
-	height:115px;
-	background-color:#ffffff;
-	position:fixed;
-	top:0;
-	z-index:99;
-	opacity:0.95;
-}
-
-#topo{
-	width:1280px;
-	height:115px;
+#header_conteudo{
+	width:960px;
+	height:70px;
+	margin:auto;
 }
 
 #logo{
-	width:219px;
-	height:57px;
+	width:320px;
+	height:auto;
 	float:left;
-	margin:0px 0px 0px 0px;
-	position:relative;
 }
 
 #logo img{
-	width:100%;
+	width:124px;
+	height:34px;
+	margin:18px 0px;
 }
 
-nav{ /*menu*/
-	width:487px;
+#menu{
+	width:430px;
 	float:left;
-	margin:60px 97px;
-	padding:0px 0px 0px 0px;
+}
+nav{
+	width:430px;
+	padding:24px 0px;
 }
 
-nav ul{ /*sem bolinha da lista*/
-	list-style:none;
-}
-
-nav ul li{ /*deixar lista lado a lado. padding para afastar nomes*/
-	display:inline;	
-	padding:0px 0px 0px 0px;
-	color:#09080e;
+nav ul{
 	float:left;
 }
 
-nav li{
-	margin:0px;	
+nav ul li{
+	display:inline;
+	margin:0 30px;
 }
 
 nav ul li a{
-	display:inline;	
-	color:#09080e;
-	text-decoration:none;
-	padding:6px 20px;
+	color:#3c3c3c;
+	text-transform:uppercase;
 	font-size:18px;
-}
-
-nav ul li a:hover{
-	background-color:#0000ff;
-	color:#ffffff;
+	text-decoration:none;
 	font-weight:400;
 }
 
 #idioma{
-	width:150px;
+	width:34px;
+	height:auto;
 	float:left;
-	margin:0px 0px 0px px;
-	padding:0px 0px;
 }
 
 #idioma img{
-	width:15%;
-	margin:0px 20px 0px 0px;
-	padding:0px 0px 0px 0px;
-}
-/*fim cabecalho*/
-
-
-#content2{/*imagem bg2*/
-	width:100%;
-	background:url(imagens/bg2.jpg) no-repeat center top;	
-	height:638px;
+	width:32px;
+	height:32px;
+	margin:18px 0px;
 }
 
-quemsomos{
-	width:100%;
-	font-family:'Lato', sans-serif;	
-}
-
-#qs{
-	width:100%;
-}
-
-#qs h1{
-	margin:15px 0px 0px 0px;
-	font-size:36px;	
-	color:#0a605a;
-	text-align:center;
-}
-
-#qs p{
-	width:960px;
-	margin:10px 0px 0px 200px;	
-	font-size:20px;
-	color:#000000;
-	text-align:center;
-}
-/*fim imagem bg2*/
-
-
-#content3{/*imagem bg3*/
-	width:100%;
-	background:url(imagens/bg3.jpg) no-repeat center top;	
-	height:711px;
-}
-
-equipe{
-	width:100%;
-	font-family:'Lato', sans-serif;	
-}
-
-#eq{
-	width:100%;
-}
-
-#eq h1{
-	margin:0px 0px 0px 0px;
-	font-size:36px;	
-	color:#fff;
-	text-align:center;
-}
-
-#eq img{
-	width:600px;
-	height:auto;
-	margin-left:381px;
-}
-
-#eq p{
-	width:960px;
-	margin:10px 0px 0px 200px;	
-	font-size:34px;
-	color:#fff;
-	word-spacing:52px;
-	text-align:center;
-}
-/*fim imagem bg3*/
-
-
-#content4{/*imagem bg4*/
-	width:100%;
-	background:url(imagens/bg4.jpg) no-repeat center top;	
-	height:772px;
-}
-
-clientes{
-	width:100%;
-	font-family:'Lato', sans-serif;	
-}
-
-#cl{
-	width:100%;
-}
-
-#cl h1{
-	margin:0px 0px 0px 0px;
-	font-size:36px;	
-	color:#fff;
-	text-align:center;
-}
-
-#seta_esq{
-	width:100%;	
-}
-
-#seta_esq img{
-	width:50px;
-	float:left;	
-	margin-top:90px;
-	margin-left:100px;
-}
-
-#bloco1{
-	width:100%;	
-}
-
-#bloco1 img{
-	margin-left:131px;
-	margin-top:50px;
-}
-
-#seta_dir{
-	width:100%;	
-}
-
-#seta_dir img{
-	width:50px;
+#login{
+	width:125px;
+	height:30px;
+	margin:18px 0px;
 	float:right;
-	margin-top:-115px;
-	margin-right:105px;	
+	border:2px solid #005a9a;
 }
-/*fim imagem bg4*/
 
-#content5{/*imagem bg5*/
+#login p{
+	font-size:18px;
+	font-weight:400;
+	color:#005a9a;
+	padding:3px 0px 0px 34px;
+}
+
+#login a{
+	text-transform:uppercase;
+	font-size:18px;
+	text-decoration:none;
+	font-weight:400;
+}
+
+#login p:hover{
+	text-transform:uppercase;
+	font-size:18px;
+	text-decoration:none;
+	font-weight:300;
+	color:#ffffff;
+}
+
+#login:hover{
+	background-color:#005a9a;
+}
+
+/*FIM CABECALHO*/
+
+
+
+/*INICIO CONTATO*/
+
+#principal{
 	width:100%;
-	background:url(imagens/bg5.jpg) no-repeat center top;	
-	height:1068px;
+	height:1000px;
+	background-color:#eaf6fe;
 }
 
-contato{
-	width:100%;
-	font-family:'Lato', sans-serif;	
+#contato{
+	width:830px;
+	padding-top:120px;
+	background-color:#eaf6fe;
+	margin:auto;
 }
 
-#co{
-	width:100%;
-}
-
-#co h1{
-	margin:0px 0px 0px 0px;
-	font-size:36px;	
-	color:#0a605a;
-	text-align:center;
-}
-
-#esquerda{
-	width:400px;
+#contato_descricao{
+	width:330px;
 	float:left;
 }
 
-#esquerda p{
-	width:400px;
-	margin:10px 0px 0px 200px;	
-	font-size:20px;
-	color:#000000;
-	text-align:left;
+#contato_descricao h2{
+	font-size:24px;
+	line-height:32px;
+	font-weight:400;
+	color:#005a9a;
 }
 
-#direita{
-	width:400px;
+#contato_descricao h4{
+	font-size:16px;
+	font-weight:400;
+	color:#eaf6fe;
+}
+
+#contato_descricao p{
+	font-size:18px;
+	line-height:30px;
+	font-weight:300;
+	color:#3c3c3c;
+}
+
+
+#contato_formulario{
+	width:330px;
 	float:right;
-	margin-top:18px;
-	margin-right:200px;
+}
+
+#contato_formulario form{
+	width:325px;
+	broder:none;
 	padding:0px 0px 0px 0px;
 }
 
-#direita p{
-	width:400px;
-	float:right;
-	padding:10px 0px 10px 0px;
+#contato_formulario form h4{
+	font-size:16px;
+	font-weight:300;
+	color:#3c3c3c;
+}
+
+#contato_formulario form input{
+	font-size:14px;
+	color:#3c3c3c;
+	background-color:#eaf6fe;
+	width:325px;
+	border:none;
+	padding:5px 0px;
+	margin:0px 0px 25px 0px;
+	border-bottom:1px solid #005a9a;
+}
+
+#contato_formulario form select{
+	width:329px;
+	height:30px;
+	border:2px solid #005a9a;
 }
 
 
-
-/*fim imagem bg5*/
-
-footer {
-    bottom:0px; 
-    width:100%; 
-    height:60px; 
-    background-color:#0a605a;
+input [type=text], input [type=email], input [type=submit], label, select{
+	background-color:#eaf6fe;
+	font-size:14px;
+	padding:5px 5px;
+	font-weight:300;
+	color:#3c3c3c;
+	margin:10px 0px 25px 0px;	
 }
+
+textarea{
+	width:327px;
+	font-size:14px;
+	color:#3c3c3c;
+	background-color:#eaf6fe;
+	padding:5px 5px;
+	border:1px solid #005a9a;
+	margin:10px 0px 0px 0px;
+}
+
+/*FIM CONTATO*/
+
+
+
+
+/*INICIO RODAPE*/
 
 #rodape{
 	width:100%;
-	height:auto;
-	padding:19px 0px 0px 0px;
+	height:195px;
+	background-color:#1e1d1b;
+}
+#rodape_conteudo{
+	width:960px;
+	margin:auto;
 }
 
-#rodape p{
-	text-align:center;
-	letter-spacing:2px;
-	font-size:16px;
-	color: #fff;
+#novidades{
+	width:340px;
+	float:left;
 }
+
+#novidades h3{
+	font-size:14px;
+	color:#ffffff;
+	font-weight:300;
+}
+
+#novidades form{
+	font-size:14px;
+	color:#3c3c3c;
+	background-color:#eaf6fe;
+	width:300px;
+	padding:5px 0px;
+	margin:0px 0px 25px 0px;
+	border:1px solid #005a9a;
+}
+
+#contato{
+	width:490px;
+}
+
+#contaot h3{
+
+}
+
+#app{
+	width:130px;
+	float:right;
+}
+
+#app h3{
+
+}
+
+#app ul{
+
+}
+
+#app ul li{
+
+}
+/*FIM RODAPE*/
