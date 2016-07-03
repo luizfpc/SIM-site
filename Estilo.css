@@ -1,0 +1,414 @@
+@charset "utf-8";
+/* CSS Document */
+
+.caixabranca {
+	background: #EAF6FE;
+	padding: 40px;
+	
+}
+
+#frase {
+	font-size: 14px;
+	text-align: justify;
+	padding: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+    background: #EAF6FE;
+}
+
+#texto {
+	font-size: 14px;
+}
+
+*{
+	margin:0;
+	padding:0;
+	font-family:'Lato', sans-serif;
+}
+
+body{
+	font-family:'Lato', sans-serif;
+	margin:auto;
+	background-color:#d4edfc;
+}
+
+/*INICIO CABECALHO*/
+
+header{
+	background:#ffffff;
+	width:100%;
+}
+
+#header_conteudo{
+	width:960px;
+	height:70px;
+	margin:auto;
+}
+
+#logo{
+	width:320px;
+	height:auto;
+	float:left;
+}
+
+#logo img{
+	width:124px;
+	height:34px;
+	margin:18px 0px;
+}
+
+#menu{
+	width:430px;
+	float:left;
+}
+nav{
+	width:430px;
+	padding:24px 0px;
+}
+
+nav ul{
+	float:left;
+}
+
+nav ul li{
+	display:inline;
+	margin:0 30px;
+}
+
+nav ul li a{
+	color:#3c3c3c;
+	text-transform:uppercase;
+	font-size:18px;
+	text-decoration:none;
+	font-weight:400;
+}
+
+#idioma{
+	width:34px;
+	height:auto;
+	float:left;
+}
+
+#idioma img{
+	width:32px;
+	height:32px;
+	margin:18px 0px;
+}
+
+#login{
+	width:125px;
+	height:30px;
+	margin:18px 0px;
+	float:right;
+	border:2px solid #005a9a;
+}
+
+#login p{
+	font-size:18px;
+	font-weight:400;
+	color:#005a9a;
+	padding:3px 0px 0px 34px;
+}
+
+#login a{
+	text-transform:uppercase;
+	font-size:18px;
+	text-decoration:none;
+	font-weight:400;
+}
+
+#login p:hover{
+	text-transform:uppercase;
+	font-size:18px;
+	text-decoration:none;
+	font-weight:300;
+	color:#ffffff;
+}
+
+#login:hover{
+	background-color:#005a9a;
+}
+
+/*FIM CABECALHO*/
+
+
+/*INICIO RECARGA*/
+
+recarga_form{
+	background:#d4edfc;
+	width:100%;
+}
+
+#recarga_conteudo{
+	width:960px;
+	height:300px;
+	margin:auto;
+}
+
+#recarga_conteudo h1{
+	color:#3c3c3c;
+	font-weight:400;
+	font-size:28px;
+	text-align:center;
+	margin:125px 0px 50px 0px;
+}
+
+#recarga_conteudo form{
+	width:325px;
+	broder:none;
+	padding:0px 0px 0px 0px;
+	margin:auto;
+}
+
+#recarga_conteudo form h4{
+	color:#3c3c3c;
+	font-weight:300;
+}
+
+#recarga_conteudo form input{
+	font-size:14px;
+	color:#3c3c3c;
+	background-color:#d4edfc;
+	width:325px;
+	border:none;
+	padding:5px 0px;
+	margin:0px 0px 25px 0px;
+	border-bottom:1px solid #005a9a;
+}
+
+input [type=text], label{
+
+	font-size:14px;
+	padding:5px 5px;
+	font-weight:300;
+	color:#3c3c3c;
+	margin:25px 0px;	
+}
+
+#recarga_conteudo form input[type=submit]{
+	width:120px;
+	background-color:#d4edfc;
+	font-size:14px;
+	padding:7px 7px;
+	font-weight:300;
+	color:#3c3c3c;
+	margin:10px -14px 0px 0px;
+	border:1px solid #005a9a;	
+	float:right;
+}
+
+
+textarea{
+	width:327px;
+	font-size:14px;
+	color:#3c3c3c;
+	background-color:#d4edfc;
+	padding:5px 5px;
+	border:1px solid #005a9a;
+}
+
+/*FIM RECARGA*/
+
+
+/*INICIO TEXTO*/
+
+#recarga_texto{
+	width:100%;
+	height:auto;
+	background-color:#ffffff;
+}
+
+#recarga_conteudo_texto{
+	width:960px;
+	margin:0 auto;
+}
+
+#recarga_texto_esq{
+	width:450px;
+	float:left;
+}
+
+
+#recarga_texto_esq p{
+	color:#3c3c3c;
+	font-weight:300;
+	font-size:16px;
+	margin:50px 0px 0px 0px;
+}
+
+#recarga_texto_esq span{
+	color:#ffffff;
+	font-weight:300;
+	font-size:1px;
+	line-height:24px;
+	margin:0px 0px 0px 0px;
+}
+
+
+#recarga_texto_dir{
+	width:450px;
+	float:right;
+}
+
+
+#recarga_texto_dir p{
+	color:#3c3c3c;
+	font-weight:300;
+	font-size:16px;
+	margin:50px 0px 100px 0px;
+}
+
+#recarga_texto_dir span{
+	color:#005a9a;
+	font-weight:300;
+	font-size:16px;
+	margin:50px 0px 100px 0px;
+}
+
+/*FIM TEXTO*/
+
+
+
+/*INICIO RODAPE*/
+
+#rodape{
+	width:100%;
+	height:180px;
+	background-color:#1e1e1e;
+}
+
+#rodape_conteudo{
+	width:960px;
+	margin:0 auto;
+}
+
+#novidades{
+	width:340px;
+	height:130px;
+	float:left;
+	border-right:1px solid #ffffff;
+	margin:25px 0px 0px 0px;
+}
+
+#novidades h3{
+	font-size:18px;
+	font-weight:300;
+	color:#ffffff;
+	margin:32px 0px 10px 0px;
+}
+
+#novidades form{
+	width:320px;
+	broder:none;
+	padding:0px 0px 0px 0px;
+}
+
+#novidades form input{
+	font-size:12px;
+	color:#3c3c3c;
+	background-color:#ffffff;
+	width:200px;
+	padding:7px 7px;
+	margin:0px 10px 0px 0px;
+	border:1px solid #1e1e1e;
+}
+
+input[type=email]{
+	background-color:#d4edfc;
+	font-size:12px;
+	padding:5px 5px;
+	font-weight:300;
+	color:#3c3c3c;
+	margin:10px 5px 0px 0px;
+	float:left;	
+}
+
+#novidades form input[type=submit]{
+	width:75px;
+	background-color:#ffffff;
+	font-size:12px;
+	padding:7px 7px;
+	font-weight:300;
+	color:#3c3c3c;
+	margin:0px 0px 0px 0px;
+	border:1px solid #1e1e1e;	
+	float:left;
+}
+
+#contato_rodape{
+	width:460px;
+	height:130px;
+	float:left;
+	border-right:1px solid #ffffff;
+	margin:25px 0px 0px 30px;
+}
+
+#contato_rodape h3{
+	font-size:16px;
+	font-weight:300;
+	line-height:24px;
+	color:#ffffff;
+	margin:27px 0px 0px 10px;
+}
+
+#texto_esq{
+	width:235px;
+	float:left;
+	margin:0px 0px 0px 0px;
+}
+
+#texto_dir{
+	width:245px;
+	float:right;
+	margin:0px 0px 0px 0px;
+}
+
+#app{
+	width:105px;
+	height:130px;
+	float:right;
+	margin:7px -15px 0px 0px;
+}
+
+
+#app h3{
+	font-size:18px;
+	font-weight:300;
+	color:#ffffff;
+	margin:20px 0px 10px 0px;
+}
+
+#app_store{
+	width:105px;
+	margin-bottom:10px;
+}
+
+#app_store img{
+	width:80px;
+	height:22px;
+}
+
+
+#google_store{
+	width:105px;
+	margin-bottom:7px;
+}
+
+#google_store img{
+	width:100px;
+	height:21px;
+}
+
+
+#windows_store{
+	width:105px;
+}
+
+#windows_store img{
+	width:72px;
+	height:25px;
+}
+
+/*FIM RODAPE*/
+
+
